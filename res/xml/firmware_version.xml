@@ -21,10 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- crDroid logo -->
+    <!-- Phoenix logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/crdroid_logo"
-        android:key="crdroid_logo"
+        android:layout="@layout/phoenix_logo"
+        android:key="phoenix_logo"
         android:selectable="false" />
 
     <!-- Device name -->
@@ -44,10 +44,10 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Lineage version -->
+    <!-- Phoenix version -->
     <Preference
-        android:key="lineage_version"
-        android:title="@*lineageos.platform:string/lineage_version"
+        android:key="phoenix_version"
+        android:title="@string/phoenix_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
